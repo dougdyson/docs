@@ -34,7 +34,7 @@ Specifically intended for the Lighthouse Labs bootcamp virtual machine, this doc
 * `git push -u origin master`
 
 ### Clone existing directory
-* `git clone [git@github.com:[YOUR-GITHUB-USERNAME/YOUR-REPO-NAME].git`
+* `git clone https://github.com/[YOUR-GITHUB-USERNAME/NEW-REPO-NAME].git`
 
 ### Using GIT during development
 * `git status`
