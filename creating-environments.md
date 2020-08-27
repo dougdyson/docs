@@ -30,15 +30,15 @@ Specifically intended for the Lighthouse Labs bootcamp virtual machine, this doc
 * `git touch README.md`
 * *add h1 title and brief description in README.md*
 * `git commit -m "first commit"`
-* `git remote add origin [git@github.com:HatHeadNinja/[repo-name].git]`
+* `git remote add origin git@github.com:[YOUR-GITHUB-USERNAME/NEW-REPO-NAME].git`
 * `git push -u origin master`
 
 ### Clone existing directory
-* `git clone [git@github.com:HatHeadNinja/[repo-name].git]`
+* `git clone [git@github.com:[YOUR-GITHUB-USERNAME/YOUR-REPO-NAME].git]`
 
 ### Using GIT during development
 * `git status`
-* `git add / checkout`
+* `git add` or `git checkout`
 * `git update .`
 * `git commit .`
 * `git push -u origin master`
