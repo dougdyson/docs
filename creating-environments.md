@@ -1,5 +1,5 @@
 # SETTING UP INITAL ENVIRONMENTS
-This document details the steps and commands to install a node JS environment, including mocha chai for unit testing, and creating the initial git repository.
+Specifically intended for the Lighthouse Labs bootcamp virtual machine, this document details the steps and commands to install a node JS environment, including mocha chai for unit testing, and creating the initial git repository.
 
 ## NODE
 ### 1. node -v make sure running node 10.20.1
