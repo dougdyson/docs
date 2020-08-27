@@ -1,2 +1,2 @@
-# docs
+# DOCS
 Documentation, how-to's, snippets, etc
