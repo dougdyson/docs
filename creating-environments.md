@@ -30,6 +30,7 @@ Specifically intended for the Lighthouse Labs bootcamp virtual machine, this doc
 * `touch README.md`
 * *add h1 title and brief description in README.md*
 * `git commit -m "first commit"`
+* `git branch -M master`
 * `git remote add origin git@github.com:[YOUR-GITHUB-USERNAME/NEW-REPO-NAME].git`
 * `git push -u origin master`
 
