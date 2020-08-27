@@ -38,7 +38,7 @@ Specifically intended for the Lighthouse Labs bootcamp virtual machine, this doc
 
 ### Using GIT during development
 * `git status`
-* `git add` or `git checkout`
+* `git add` for new files or `git checkout` to remove files
 * `git update .`
 * `git commit .`
 * `git push -u origin master`
