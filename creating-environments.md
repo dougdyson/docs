@@ -14,6 +14,9 @@ Specifically intended for the Lighthouse Labs bootcamp virtual machine, this doc
 ### establish dependencies and create package,json
 * `npm init -y`
 
+## ESLINT
+* `npm install eslint --save-dev`
+
 ## UNIT TESTING
 ### MOCHA / CHAI
 * `npm install mocha chai --save-dev`
