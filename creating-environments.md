@@ -29,6 +29,9 @@ Specifically intended for the Lighthouse Labs bootcamp virtual machine, this doc
 
 ## NODEMON
 * `npm install nodemon --save-dev`
+---------------------------------
+### update start variable in package.json "scripts": {
+* `"start": "./node_modules/.bin/nodemon -L express_server.js",`
 
 ## MORGAN
 * `npm install morgan --save-dev`
