@@ -21,7 +21,7 @@ Specifically intended for the Lighthouse Labs bootcamp virtual machine, this doc
 ### update test variable in package.json "scripts": {
 * `"test": "./node_modules/mocha/bin/mocha"`
 
-### WATCH-RUN
+## WATCH-RUN
 * `npm install watch-run --save-dev `
 
 ## NODEMON
