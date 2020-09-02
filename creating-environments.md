@@ -2,24 +2,47 @@
 Specifically intended for the Lighthouse Labs bootcamp virtual machine, this document details the steps and commands to install a node JS environment, including mocha chai for unit testing, and creating the initial git repository.
 
 ## NODE
-### 1. node -v make sure running node 10.20.1
+### make sure running node 10.20.1
 * `node -v`
 
-### 1.1 if not node 10.20.1 then list all ver available
+### if not node 10.20.1 then list all ver available
 * `nvm ls` 
 
-### 1.2 nvm use 10.20.1 set the default
+### nvm use 10.20.1 set the default
 * `nvm alias default 10.20.1`
 
-### 2. establish dependencies and create package,json
+### establish dependencies and create package,json
 * `npm init -y`
 
 ## UNIT TESTING
-### 3. install mocha and chai
+### MOCHA / CHAI
 * `npm install mocha chai --save-dev`
 
-### 4. update test variable in package.json "scripts": {
+### update test variable in package.json "scripts": {
 * `"test": "./node_modules/mocha/bin/mocha"`
+
+### WATCH-RUN
+* `npm install watch-run --save-dev `
+
+## NODEMON
+* `npm install nodemon --save-dev`
+
+## MORGAN
+* `npm install morgan --save-dev`
+---------------------------------
+* `const morgan = require("morgan");`
+* `app.use(morgan('dev'));`
+
+## EXPRESS
+* `npm install express`
+-----------------------
+* `const express  = require("express");`
+* `const app = express();`
+* `const port = process.env.PORT || 3000;`
+* `app.use(express.urlencoded({ extended: false }));`
+* `app.set('view engine', 'ejs');`
+* `app.listen(port, function (){console.log(`Server running at port: ${port}`);});`
+* `app.get('/', (req, res) => {res.send('hello');});`
 
 ## GIT
 ### 5. Create a new repository on the command line
