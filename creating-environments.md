@@ -21,8 +21,11 @@ Specifically intended for the Lighthouse Labs bootcamp virtual machine, this doc
 ### update test variable in package.json "scripts": {
 * `"test": "./node_modules/mocha/bin/mocha"`
 
-## WATCH-RUN
-* `npm install watch-run --save-dev `
+## CHOKIDAR
+* `npm install chokidar --save-dev`
+---------------------------------
+### update test variable in package.json "scripts": {
+* `"test": "CHOKIDAR_USEPOLLING=1 ./node_modules/mocha/bin/mocha --watch",`
 
 ## NODEMON
 * `npm install nodemon --save-dev`
@@ -45,7 +48,7 @@ Specifically intended for the Lighthouse Labs bootcamp virtual machine, this doc
 * `app.get('/', (req, res) => {res.send('hello');});`
 
 ## GIT
-### 5. Create a new repository on the command line
+### Create a new repository on the command line
 #### commit package.json and mocha chai before coding starts
 * `git init`
 * `touch .gitignore`
