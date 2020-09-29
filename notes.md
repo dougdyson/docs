@@ -9,7 +9,7 @@
 Copy state variable into a new variable so that React can compare with the state it is storing
 - i.e.
 ```reactInteralState = [1,2,3];
-const currentState = reactInternalState
+const currentState = reactInternalState```
 
 For reference objects,
 - map, slice, spread, reduce, filter, concat
