@@ -26,9 +26,9 @@ Specifically intended for the Lighthouse Labs bootcamp virtual machine, this doc
 #### commit package.json and mocha chai before coding starts
 * `git init`
 * `touch .gitignore`
-* *add node_modules/ to .gitignore*`
+* *add `node_modules/` to `.gitignore`*
 * `git touch README.md`
-* *add h1 title and brief description in README.md*
+* *add h1 title and brief description in `README.md`*
 * `git commit -m "first commit"`
 * `git remote add origin git@github.com:[YOUR-GITHUB-USERNAME/NEW-REPO-NAME].git`
 * `git push -u origin master`
